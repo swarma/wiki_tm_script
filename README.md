@@ -35,11 +35,13 @@ The number of rows of items.txt and zh_items.txt should be the same, each line i
 
 ## Note
 
-When your wiki is old version, there will be some problems, then using the patch file
+1. When your wiki is old version, there will be some problems, then using the patch file
 ```
 cp -f source/__init__.py pywikibot/pywikibot/site
 wiki_tm_script/source/__init__.py pywikibot/pywikibot/
 ```
+
+2. I use caiyun translator and the token in wiki_text_cleaner.py is official demo token, request your own token for test.
 
 ## Todolist
 * [ ] Better zh_items.txt
